@@ -13,6 +13,10 @@
 		C8CDFB841E8D03BC004A10FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8CDFB821E8D03BC004A10FA /* Main.storyboard */; };
 		C8CDFB861E8D03BC004A10FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8CDFB851E8D03BC004A10FA /* Assets.xcassets */; };
 		C8CDFB891E8D03BC004A10FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8CDFB871E8D03BC004A10FA /* LaunchScreen.storyboard */; };
+		C8CDFBAF1E8E0938004A10FA /* client.cer in Resources */ = {isa = PBXBuildFile; fileRef = C8CDFBAE1E8E0938004A10FA /* client.cer */; };
+		C8CDFBB11E8E0A57004A10FA /* local.cer in Resources */ = {isa = PBXBuildFile; fileRef = C8CDFBB01E8E0A4B004A10FA /* local.cer */; };
+		C8CDFBB31E8E0B65004A10FA /* server.cer in Resources */ = {isa = PBXBuildFile; fileRef = C8CDFBB21E8E0B65004A10FA /* server.cer */; };
+		C8CDFBB51E8E0BCB004A10FA /* slc05enc.cer in Resources */ = {isa = PBXBuildFile; fileRef = C8CDFBB41E8E0BC5004A10FA /* slc05enc.cer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		C8CDFB851E8D03BC004A10FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8CDFB881E8D03BC004A10FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8CDFB8A1E8D03BC004A10FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CDFBAE1E8E0938004A10FA /* client.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = client.cer; sourceTree = "<group>"; };
+		C8CDFBB01E8E0A4B004A10FA /* local.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = local.cer; sourceTree = "<group>"; };
+		C8CDFBB21E8E0B65004A10FA /* server.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = server.cer; sourceTree = "<group>"; };
+		C8CDFBB41E8E0BC5004A10FA /* slc05enc.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = slc05enc.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,10 @@
 		C8CDFB6D1E8D03BC004A10FA = {
 			isa = PBXGroup;
 			children = (
+				C8CDFBB41E8E0BC5004A10FA /* slc05enc.cer */,
+				C8CDFBB21E8E0B65004A10FA /* server.cer */,
+				C8CDFBB01E8E0A4B004A10FA /* local.cer */,
+				C8CDFBAE1E8E0938004A10FA /* client.cer */,
 				C8CDFB781E8D03BC004A10FA /* browsercertificate */,
 				C8CDFB771E8D03BC004A10FA /* Products */,
 			);
@@ -136,9 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8CDFBB51E8E0BCB004A10FA /* slc05enc.cer in Resources */,
+				C8CDFBB11E8E0A57004A10FA /* local.cer in Resources */,
 				C8CDFB891E8D03BC004A10FA /* LaunchScreen.storyboard in Resources */,
+				C8CDFBAF1E8E0938004A10FA /* client.cer in Resources */,
 				C8CDFB861E8D03BC004A10FA /* Assets.xcassets in Resources */,
 				C8CDFB841E8D03BC004A10FA /* Main.storyboard in Resources */,
+				C8CDFBB31E8E0B65004A10FA /* server.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 				C8CDFB8F1E8D03BC004A10FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
